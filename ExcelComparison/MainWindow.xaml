@@ -1,0 +1,18 @@
+﻿<Window x:Class="ExcelComparison.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ExcelComparison"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Excel Path" HorizontalAlignment="Left" Margin="110,141,0,0" VerticalAlignment="Top"/>
+        <Label Content="Macro Name" HorizontalAlignment="Left" Margin="110,246,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtExcelPath" HorizontalAlignment="Left" Margin="206,141,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="339"/>
+        <TextBox x:Name="txtMacroName" HorizontalAlignment="Left" Margin="206,246,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="339"/>
+        <Button x:Name="btnCompare" Content="Compare" HorizontalAlignment="Left" Margin="600,127,0,0" VerticalAlignment="Top" Height="49" Width="103" Click="btnCompare_Click"/>
+        <Button x:Name="btnRun" Content="Run" HorizontalAlignment="Left" Margin="600,233,0,0" VerticalAlignment="Top" Width="103" Height="41" Click="btnRun_Click"/>
+
+    </Grid>
+</Window>
